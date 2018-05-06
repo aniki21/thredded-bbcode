@@ -19,11 +19,11 @@ module Thredded
           end
 
           tag :spoilers do
-            %(<span class="thredded--post--content--spoiler">#{content}</span>)
+            %(<span class="thredded--post--content--spoiler soc">#{content}</span>)
           end
 
           tag :spoiler do
-            %(<span class="thredded--post--content--spoiler">#{content}</span>)
+            %(<span class="thredded--post--content--spoiler soc">#{content}</span>)
           end
         end
       end
