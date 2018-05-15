@@ -19,11 +19,11 @@ module Thredded
           end
 
           tag :spoilers do
-            %(<span class="society--spoiler" tabindex="0"><span class="society--spoiler-warning">Spoiler - click to show</span><span class="society--spoiler-content">#{content}</span></span>)
+            %(<div class="society--spoiler" tabindex="0"><span class="society--spoiler-warning">Spoiler - click to show</span><div class="society--spoiler-content">#{content}</div></div>)
           end
 
           tag :spoiler do
-            %(<span class="society--spoiler" tabindex="0"><span class="society--spoiler-warning">Spoiler - click to show</span><span class="society--spoiler-content">#{content}</span></span>)
+            %(<div class="society--spoiler" tabindex="0"><span class="society--spoiler-warning">Spoiler - click to show</span><div class="society--spoiler-content">#{content}</div></div>)
           end
         end
       end
